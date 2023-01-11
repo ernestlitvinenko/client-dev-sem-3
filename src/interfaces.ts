@@ -8,6 +8,7 @@ export interface PostInterface {
 
 export interface Comments {
     id: number,
+    author: string
     topic_id: number
     text: string
 }

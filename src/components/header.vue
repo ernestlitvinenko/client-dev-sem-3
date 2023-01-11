@@ -1,10 +1,13 @@
 <template>
     <header @click="toggleAside" class="header">
         <div class="wrapper-row header__wrapper ">
+            <RouterLink to="/" class="hidden dark:block">
+              <img :src="LogoDark" alt="Logo" class="hidden dark:block">
+            </RouterLink>
 
-            <img :src="LogoDark" alt="Logo" class="hidden dark:block">
-            <img :src="LogoLight" alt="Logo" class="block dark:hidden">
-
+            <RouterLink to="/" class="dark:hidden">
+              <img :src="LogoLight" alt="Logo" class="block ">
+            </RouterLink>
             <a href="#" class="header__user-btn">
                 <img :src="UserLogoDark" alt="user_icon" class="hidden dark:block">
                 <img :src="UserLogoLight" alt="user_icon" class="block dark:hidden">
