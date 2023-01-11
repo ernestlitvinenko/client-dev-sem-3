@@ -1,0 +1,32 @@
+{
+  "topics": [
+    {
+      "id": 0,
+      "title": "Зачем я создал этот сайт?",
+      "img": "https://picsum.photos/200/300",
+      "description": "Дело в том, что я потратил на него кучу своего времени, И главное не понятно зачем? Подскажите кто нибудь, что делать в такой ситуации?",
+      "author": "ernestlitvinenko"
+    },
+    {
+      "id": 1,
+      "title": "Topic title 2",
+      "img": "https://picsum.photos/200/300",
+      "description": "lorem ipcum DOLOE",
+      "author": "ernestlitvinenko"
+    }
+  ],
+  "comments": [
+    {
+      "id": 0,
+      "author": "ernestlitvinenko",
+      "topic_id": 0,
+      "text": "Оооо, не первый раз с этим сталкиваюсь! Крепись"
+    },
+    {
+      "id": 1,
+      "author": "ernestlitvinenko",
+      "topic_id": 0,
+      "text": "Coooooool2"
+    }
+  ]
+}
